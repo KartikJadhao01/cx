@@ -8,13 +8,13 @@ INSERT INTO admin VALUES ('admin', 'admin123');
 
 -- CUSTOMER
 CREATE TABLE customer (
-    cus_id INT PRIMARY KEY AUTO_INCREMENT,
-    username VARCHAR(50) UNIQUE,
-    password VARCHAR(50),
-    name VARCHAR(100),
-    email VARCHAR(100),
-    phone_no VARCHAR(15)
+  cus_id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(100),
+  email VARCHAR(100),
+  phone_no VARCHAR(15),
+  password VARCHAR(50)
 );
+
 
 -- COMPLAINT
 CREATE TABLE complaint (
